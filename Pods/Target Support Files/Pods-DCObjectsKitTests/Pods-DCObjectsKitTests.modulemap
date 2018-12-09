@@ -1,0 +1,6 @@
+module Pods_DCObjectsKitTests [system] {
+  umbrella header "Pods-DCObjectsKitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

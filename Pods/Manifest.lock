@@ -1,0 +1,36 @@
+PODS:
+  - FileKit (5.2.0)
+  - SwifterSwift (4.6.0):
+    - SwifterSwift/AppKit (= 4.6.0)
+    - SwifterSwift/CoreGraphics (= 4.6.0)
+    - SwifterSwift/CoreLocation (= 4.6.0)
+    - SwifterSwift/Foundation (= 4.6.0)
+    - SwifterSwift/MapKit (= 4.6.0)
+    - SwifterSwift/SpriteKit (= 4.6.0)
+    - SwifterSwift/SwiftStdlib (= 4.6.0)
+    - SwifterSwift/UIKit (= 4.6.0)
+  - SwifterSwift/AppKit (4.6.0)
+  - SwifterSwift/CoreGraphics (4.6.0)
+  - SwifterSwift/CoreLocation (4.6.0)
+  - SwifterSwift/Foundation (4.6.0)
+  - SwifterSwift/MapKit (4.6.0)
+  - SwifterSwift/SpriteKit (4.6.0)
+  - SwifterSwift/SwiftStdlib (4.6.0)
+  - SwifterSwift/UIKit (4.6.0)
+
+DEPENDENCIES:
+  - FileKit
+  - SwifterSwift
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FileKit
+    - SwifterSwift
+
+SPEC CHECKSUMS:
+  FileKit: 10bfd8a3023a0b09f24c9f49546cbbddf43fd464
+  SwifterSwift: 812ffec6f301922f5430e75be3f2939ea3a80024
+
+PODFILE CHECKSUM: bee53d9efafb84cecc3acda6a9ed1504dc281a6c
+
+COCOAPODS: 1.5.0
