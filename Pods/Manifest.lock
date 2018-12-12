@@ -19,18 +19,26 @@ PODS:
   - SwifterSwift/UIKit (4.6.0)
 
 DEPENDENCIES:
-  - FileKit
+  - FileKit (from `https://github.com/wdcurry/FileKit.git`)
   - SwifterSwift
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - FileKit
     - SwifterSwift
 
+EXTERNAL SOURCES:
+  FileKit:
+    :git: https://github.com/wdcurry/FileKit.git
+
+CHECKOUT OPTIONS:
+  FileKit:
+    :commit: ff5d0961d269640a63eceb0a7c742a5c5ba9a002
+    :git: https://github.com/wdcurry/FileKit.git
+
 SPEC CHECKSUMS:
-  FileKit: 10bfd8a3023a0b09f24c9f49546cbbddf43fd464
+  FileKit: 03ad456308677f715abc62dd42e1fa9f868aec33
   SwifterSwift: 812ffec6f301922f5430e75be3f2939ea3a80024
 
-PODFILE CHECKSUM: bee53d9efafb84cecc3acda6a9ed1504dc281a6c
+PODFILE CHECKSUM: b635dae76c8281b3f7ea14bf1f9505b428b39a99
 
 COCOAPODS: 1.5.0

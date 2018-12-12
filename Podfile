@@ -9,14 +9,15 @@ target 'DCObjectsKit' do
   # Pods for DCObjectsKit
   # pod 'FileKit', :path => '~\Users\drew\Libraries\FileKit'
   # pod 'FileKit', :path => 'https://github.com/wdcurry/FileKit.git'
-  
-  #pod 'FileKit', :path => 'https://github.com/nvzqz/FileKit.git'
+  # pod 'FileKit', :path => 'https://github.com/nvzqz/FileKit.git'
 
   inhibit_all_warnings!
   
   pod 'SwifterSwift'
-  pod 'FileKit'
-  
+  #pod 'FileKit', :path => '~\Users\drew\Libraries\FileKit'
+  pod 'FileKit', :git => 'https://github.com/wdcurry/FileKit.git'
+  #pod 'FileKit'
+
 
   target 'DCObjectsKitTests' do
     inherit! :search_paths
